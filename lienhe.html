@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title> BÁN CÂY GIỐNG ONLINE</title>
+  <link rel="icon" href="images/layout/icon cây giống.jpg">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.1/dist/jquery.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+    integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+    integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+  <link rel="stylesheet" href="th.css">
+  <link rel="stylesheet" href="./Font-Awesomecss/css/font-awesome.min.css">
+</head>
+
+<body>
+  <div class="py-1 bg-success">
+    <div class="container">
+      <div class="row no-gutters d-flex align-items-start align-items-center px-md-0">
+        <div class="col-lg-12 d-block">
+          <div class="row d-flex">
+            <div class="col-md pr-4 d-flex topper align-items-center">
+              <div class="icon mr-2 d-flex justify-content-center align-items-center"><span class="icon-phone2"></span>
+              </div>
+              <span class="text">+ 0907267362</span>
+            </div>
+            <div class="col-md pr-4 d-flex topper align-items-center">
+              <div class="icon mr-2 d-flex justify-content-center align-items-center"><span
+                  class="icon-paper-plane"></span></div>
+              <span class="text">dh52003844@student.stu.edu.vn</span>
+            </div>
+            <div class="col-md-5 pr-4 d-flex topper align-items-center text-lg-right">
+              <span class="text">Họ tên: Trần Đình Khôi - MSSV: DH52003844</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="jumbotron text-center" style="margin-bottom:0; background-color: green;">
+    <h1>Cây giống online</h1>
+  </div>
+  <nav class="navbar navbar-expand-sm bg-dark navbar-dark sticky-top">
+    <a class="navbar-brand" href="text.html">Trang chủ</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="#">Shop</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Giới thiệu</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="lienhe.html">Liên hệ</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="ladth.html">Lab thực hành</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <div class="container-fluid" style="margin-top:30px">
+    <div class="row">
+      <div class="col-sm-4">
+        <marquee direction="up" height="300px">
+          <h2>Sãn phẩm hot !</h2>
+          <h5>Lúa giống ST25</h5>
+          <div class="fakeimg">
+            <img src="images/layout/lúa st25.jpg" width="100%" height="100%">
+          </div>
+          <p>Gạo ST25 là loại gạo đã đạt giải nhất trong cuộc thi Worlds Best Rice lần thứ XI tại Philippines.Đây là
+            giống
+            gạo đặc sản thơm, dẻo mềm ngon nhất thế giới.</p>
+        </marquee>
+        <h3>Một số sãn phẩm khác</h3>
+        <p>Hiện đang khyến mãi 30% các mặt hàng của shop.</p>
+        <ul class="nav nav-pills flex-column">
+          <li class="nav-item">
+            <a class="nav-link active" href="#">Cây ăn quả</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Hoa</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Rau củ</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Cây kiễng</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Vật tư nông nghiệp</a>
+          </li>
+        </ul>
+        <hr class="d-sm-none">
+      </div>
+      <div class="col-sm-8">
+        <form name="frmdangkithanhvien" action="xlThem.php" method="post" enctype="multipart/form-data">
+          <table border="0" width="100%">
+            <tr>
+              <td colspan="2" align="center"><b>ĐĂNG KÝ THÀNH VIÊN</b></td>
+            </tr>
+
+
+            <tr>
+              <td>Tên đăng nhập</td>
+              <td><input type="text" name="nmUsername" size="30" /></td>
+            </tr>
+            <tr>
+              <td>Mật khẩu</td>
+              <td><input type="password" name="nmPassword" size="30" /></td>
+            </tr>
+            <tr>
+              <td colspan="2">
+                <hr />
+              </td>
+            </tr>
+            <tr>
+              <td colspan="2"><b>THÔNG TIN CÁ NHÂN</b></td>
+            </tr>
+
+            <tr>
+              <td>Họ tên</td>
+              <td><input type="text" name="nmFullName" size="50" /></td>
+            </tr>
+            <tr>
+              <td>Ngày sinh</td>
+              <td><input type="date" name="nmBirthDate" /></td>
+            </tr>
+            <tr>
+              <td>Giới tính</td>
+              <td><input type="radio" name="gioitinh" value="nam" />Nam <br>
+                <input type="radio" name="gioitinh" value="nu" />Nữ
+              </td>
+            </tr>
+            <tr>
+              <td>Địa chỉ email</td>
+              <td><input type="email" name="nmEmailAdd" size="50" /></td>
+            </tr>
+            <tr>
+              <td>Hình đại diện</td>
+              <td><input type="file" name="nmURLAvatar" /></td>
+            </tr>
+            <tr>
+              <td>Địa chỉ</td>
+              <td><input type="text" name="nmAddress" size="50" /></td>
+            </tr>
+            <tr>
+              <td>Điện thoại</td>
+              <td><input type="tel" name="nmCellphone" size="50" /></td>
+            </tr>
+            <tr>
+              <td>Câu hỏi bí mật</td>
+              <td><select name="nmPriateQuestion">
+                  <option value="">Chọn câu hỏi bí mật</option>
+                  <option value="firstschool">Ngôi trường đầu tiên của bạn là gì</option>
+                  <option value="firstpet">Con vật đầu tiên mà bạn nuôi tên gì</option>
+                  <option value="childhoodmemory">Kỉ niệm thời thơ ấu của bạn là gì</option>
+                  <option value="hometown">Quê bạn ở đâu</option>
+                  <option value="hometown">Tên người bạn thân nhất của bạn là gì ?</option>
+                </select>
+              </td>
+            </tr>
+            <tr>
+              <td>Trả lời</td>
+              <td><input type="text" name="nmPrivateAnswer" size="50" /></td>
+            </tr>
+            <tr>
+              <td>Bạn quan tâm đến sãn phẩm nào ?</td>
+              <td>
+                <table>
+                  <tr>
+                    <td><input type="checkbox" name="nmFields[]">Điện thoại</td>
+                    <td><input type="checkbox" name="nmFields[]">Máy ảnh-quay phim</td>
+
+                  </tr>
+                  <tr>
+                    <td><input type="checkbox" name="nmFields[]">Table</td>
+                    <td><input type="checkbox" name="nmFields[]">Điện tử</td>
+
+                  </tr>
+                  <tr>
+                    <td><input type="checkbox" name="nmFields[]">Vi tính</td>
+                    <td><input type="checkbox" name="nmFields[]">Gia dụng</td>
+
+                  </tr>
+                </table>
+              </td>
+            </tr>
+            <tr>
+              <td colspan="2" align="center"><br /><input type="submit" name="nmSubmit" value="Đăng ký" />
+                <input type="reset" name="nmReset" value="Xóa" />
+              </td>
+            </tr>
+          </table>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <div class="jumbotron text-center" style="margin-bottom:0">
+    <footer class="ftco-footer ftco-section">
+      <div class="container">
+        <div class="row">
+          <div class="mouse">
+            <a href="#" class="mouse-icon">
+              <div class="mouse-wheel"><span class="ion-ios-arrow-up"></span></div>
+            </a>
+          </div>
+        </div>
+        <div class="row mb-5">
+          <div class="col-md">
+            <div class="ftco-footer-widget mb-4">
+              <h2 class="ftco-heading-2">Liên hệ</h2>
+              <ul class="ftco-footer-social list-unstyled float-md-left float-lft mt-5">
+                <li><a
+                    href="https://m.facebook.com/trandinhkhoi.zero?eav=Afb9Yr19Mdcr7EaAX7iPfv3glvBZPJ7r06CBbweFkfprHGVjUNaeUUEw71hzlTPX2Do&paipv=0">FaceBook
+                    : TranDinhKhoi</a></li>
+                <li><a href="#">Zalo</a></li>
+                <li><a href="">trandinhkhoitvtp@gmail.com</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md">
+            <div class="ftco-footer-widget mb-4">
+              <h2 class="ftco-heading-2">Have a Questions?</h2>
+              <div class="block-23 mb-3">
+                <ul>
+                  <li><span class="icon icon-map-marker"></span><span class="text">180 Cao Lỗ, P4, Q8, TP.HCM</span>
+                  </li>
+                  <li><a href="#"><span class="icon icon-phone"></span><span class="text">0907267262</span></a>
+                  </li>
+                  <li><a href="#"><span class="icon icon-envelope"></span><span
+                        class="text">trandinhkhoizero.com</span></a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12 text-center">
+
+            <p>
+              <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+              Copyright &copy;
+              <script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made
+              with <i class="fas fa-heart" aria-hidden="true"></i> by <a href="https://colorlib.com"
+                target="_blank">Colorlib</a>
+              <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+            </p>
+            <p>Trần Đình Khôi - MSSV: DH52003844 - D20-TH03</p>
+
+    </footer>
+
+  </div>
+
+</body>
+
+</html>
